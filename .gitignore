@@ -1,32 +1,37 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+build/
 *.a
-*.lib
-
-# Executables
+*.o
 *.exe
-*.out
-*.app
+*.lib
+*.dll
+*.log
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+*.tmp
+*.bak
+
+.DS_Store
+Thumbs.db
+
+*.sln
+*.vcxproj*
+*.code-workspace
+.vscode/
+
+.idea/
+
+*.user
+
+*.zip
+*.7z
+*.tar
+*.gz
+
+*.sdf
+*.opensdf
+ipch/
+
+shaders/
